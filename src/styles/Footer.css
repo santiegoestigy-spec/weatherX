@@ -1,0 +1,46 @@
+.footer {
+  background-color: #1e293b;
+  color: #fff;
+  padding: 3rem 1rem;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer-left form {
+  display: flex;
+  margin-top: 1rem;
+}
+
+.footer-left input {
+  padding: 0.8rem;
+  border: none;
+  border-radius: 4px 0 0 4px;
+}
+
+.footer-left button {
+  background-color: #0077ff;
+  color: white;
+  padding: 0.8rem 1.2rem;
+  border-radius: 0 4px 4px 0;
+  border: none;
+}
+
+.footer-right img {
+  width: 200px;
+}
+
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-right {
+    margin-top: 2rem;
+  }
+}

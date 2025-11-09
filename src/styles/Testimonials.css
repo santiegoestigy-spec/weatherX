@@ -1,0 +1,16 @@
+.testimonials {
+  background-color: #eaf3ff;
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.testimonial-box {
+  max-width: 600px;
+  margin: 2rem auto;
+}
+
+.testimonial-box img {
+  width: 100px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}

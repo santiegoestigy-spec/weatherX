@@ -1,0 +1,26 @@
+.weather-form {
+  text-align: center;
+  padding: 3rem 0;
+}
+
+.weather-form form {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.weather-form input {
+  padding: 0.8rem;
+  font-size: 1rem;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.weather-form button {
+  background-color: #0077ff;
+  color: #fff;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 5px;
+}

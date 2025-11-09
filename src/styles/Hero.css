@@ -1,0 +1,45 @@
+.hero {
+  background: linear-gradient(to right, #eaf3ff, #fefefe);
+  padding: 4rem 0;
+}
+
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.hero-text {
+  flex: 1;
+  min-width: 280px;
+  margin-right: 2rem;
+}
+
+.hero-text h1 {
+  font-size: 2.5rem;
+  color: #0077ff;
+}
+
+.hero-text p {
+  margin: 1rem 0;
+  line-height: 1.6;
+  font-size: 1.1rem;
+}
+
+.cta-btn {
+  background-color: #0077ff;
+  color: #fff;
+  padding: 0.8rem 1.6rem;
+  font-size: 1rem;
+  transition: 0.3s;
+}
+
+.cta-btn:hover {
+  background-color: #005fcb;
+}
+
+.hero-img {
+  flex: 1;
+  min-width: 280px;
+}
